@@ -2,7 +2,7 @@
 
 const URI="https://api.spotify.com/v1/artists/12vb80Km0Ew53ABfJOepVz/top-tracks?market=US"
 
-const TOKEN="Bearer BQDXweH95HXfIvVPnr4LrVkC4GNN2jeMD-BmsLwM70AXX7ib9jsiGSRK-6-i8akNMuJ-6ZKzYhtTN2s0KMHqadPbMgEcnaAgqZALck_yIViVsQF6KiaxrgDdEQUUjhxQLckkS8heDXN-kgtnr-mzrGJT14gnTJdjz0g"
+const TOKEN="Bearer BQBb3Yzr9Lv-ccrWuyDse6nxGUKNCqRByj9LvaUYXm1KizRf8XlcOPdJvuKPwSSaFEC62_LYY-fn_nHxHzVDAlQSeVXFUN62t1uBf8kX4mFFe_RletIYS3ot_7VAA-kvLZYVN6yQIpu0dizDipMtK5fwYLmdasKLu3Y"
 
 //Objeto
 //1.method
