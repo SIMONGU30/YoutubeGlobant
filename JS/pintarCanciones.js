@@ -34,11 +34,12 @@ export function pintarCanciones(resultado){
         
 
 
-
+        tarjeta.appendChild(imagen)
         tarjeta.appendChild(nombre)
         tarjeta.appendChild(direccion)
-        tarjeta.appendChild(imagen)
-
+        
+        
+        
         columna.appendChild(tarjeta)
         baseDiv.appendChild(columna)
     })
