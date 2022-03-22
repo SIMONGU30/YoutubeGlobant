@@ -1,6 +1,14 @@
-function conectarServicio(URI){
-    
+    export async  function cosumirApi(PARAMETROS_PETICION,tokenArtista){
+    let respuesta= await fetch(PARAMETROS_PETICION,tokenArtista)
+    let canciones=respuesta.json()
+
+    return(canciones)
 }
+
+
+
+
+   
 
 //funcion para consumir APIS(DATOS)
 //de cualquier sevidor con JS PURO
@@ -9,13 +17,5 @@ function conectarServicio(URI){
 
 
 
-/*async  function cosumirApi(){
-    let respuesta= await fetch(URI,PARAMETROS_PETICION)
-    let canciones=respuesta.json()
-    return(canciones)
-}
-
- export let resultado=await cosumirApi()*/
    
-
 

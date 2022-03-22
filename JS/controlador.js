@@ -1,10 +1,12 @@
-import { resultado } from "./servicio2.js";
-import { pintarCanciones } from "./pintarCanciones.js";
+import { seleccionarArtista } from "./seleccionArtista.js"
 
 
-export function pintarCanciones(resultado)
+let selector=document.getElementById("selector")
 
+selector=document.addEventListener("click",function(event){
+    let artistaSeleccionado=(event.target.textContent)
 
-
-
- 
+    let uri=seleccionarArtista(artistaSeleccionado)
+    //console.log(uri)
+    
+})
